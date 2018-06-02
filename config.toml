@@ -1,3 +1,29 @@
-baseURL = "http://example.org/"
+baseURL = "https://jonnybeyond.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jonny Beyond Bloggin'"
+theme = "apricot-hugo-theme"
+summaryLength = 15
+copyright = "Copyright &copy; 2018 (Jonny Beyond). All Rights Reserved."
+googleAnalytics = "XXXXX"
+disqusShortname = "XXXXX"
+
+# Pagination.  Show 10 articles in the home page
+paginate = 10
+
+sectionPagesMenu = "main"
+[menu]
+ [[menu.main]]
+    name = "Github"
+    url = "https://github.com/GITHUB_USERNAME/"
+    weight = -110
+
+[blackfriday]
+    extensions = [ "noEmptyLineBeforeBlock"]
+	extensionsmask = ["spaceHeaders", "backslashLineBreak"]
+
+[params]
+	email = "jonnybeyond@google.com"
+	github= "GITHUB_USERNAME"
+	twitter = "TWITTER_NAME"
+	headerImage = "https://source.unsplash.com/zgTXw53Pdko/800x450"
+
